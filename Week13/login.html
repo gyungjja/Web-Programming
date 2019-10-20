@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>로그인</title>
+</head>
+<style>
+header {
+ height: 30px;
+}
+
+.fix {
+ width: 420px;
+ height: 120px;
+ border: 2px solid white;
+}
+.bottom {
+ width: 424px;
+ height: 30px;
+ background-color: white;
+ color:white;
+ line-height:1.75;
+}
+
+#d1 {
+ width: 100px;
+}
+
+nav {
+ float: left;
+ width: 40px;
+ height: 150px;
+}
+
+aside {
+ float: right;
+ width: 40px;
+ height: 150px;
+}
+
+input.b1 {
+ padding: 12px;
+ color: white;
+ background-color: black;
+}
+
+</style>
+</head>
+<body>
+ <FORM action="login.jsp" method=post>
+  <div class="fix">
+   <header></header>
+   <nav></nav>
+   <section>
+   <table>
+    <tr>
+     <td id="d1"> I  D </td>
+     <td><input type=text name=id></td>
+     <td rowspan=2><input class="b1" type=submit value="Login"></td>
+    </tr>
+    <tr>
+     <td id="d1">password</td>
+     <td><input type=password name=password></td>
+    </tr>
+   </table>
+   </section>
+  </div>
+  <div class="bottom">
+  <center>
+  <a href="regist.html">회원가입 </a>
+  <a href="find.html">ID/PW 찾기</a>
+  </center>
+ </FORM>
+</body>
+</html>

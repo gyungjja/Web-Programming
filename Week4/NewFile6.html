@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+	margin: 5px;		/*테두리와 박스 최종 경계 사이 여백 5px(바깥쪽)*/
+	border: 1px solid #ccc;	/*박스 테두리 두께 1px 실선 #ccc*/
+	float: left;		/*가운데 나열*/
+	width: 180px;		/*넓이 180px*/
+}
+
+div.gallery:hover {
+	border: 1px solid #777;	/*박스 테두리 두께 1px 실선 #777*/
+}
+
+div.gallery img {
+	width: 100%;		/*이미지 넓이 100%*/
+	height:auto;		/*이미지 높이 자동*/
+}
+
+div.desc {
+	padding: 15px;		/*콘텐츠와 테두리 사이의 여백 15px(박스안쪽)*/
+	text-align: center;	/*텍스트 속성 정렬,위치 중앙*/
+}
+</style>
+</head>
+<body>
+
+<div class="gallery"> 
+	<a target="_blank" href="img_fjords.jpg">	
+		<img src="fjords.jpg" alt="Trolltunga Norway" width="300" height="200">	<!-- 파일명 fjords.jpg , alt= 대체 텍스트 ,너비 300,높이 200 -->
+	</a>
+	<div class="desc">Add a description of the image here</div>					<!--  박스안쪽 여백 공간 Add a description of the image here -->
+</div>
+
+<div class="gallery">
+	<a target="_blank" href="img_forest.jpg">
+		<img src="forest.jpg" alt="Forest" width="600" height="400">		<!-- 파일명 forest.jpg , alt= 대체 텍스트 ,너비 600,높이 400 -->
+	</a>
+	<div class="desc">Add a description of the image here</div>				<!--  박스안쪽 여백 공간 Add a description of the image here -->
+</div>
+
+<div class="gallery">
+	<a target="_blank" href="img_lights.jpg">
+		<img src="lights.jpg" alt="Lights" width="600" height="400">		<!-- 파일명 lights.jpg , alt= 대체 텍스트 ,너비 600,높이 400 -->
+	</a>
+	<div class="desc">Add a description of the image here</div>				<!--  박스안쪽 여백 공간 Add a description of the image here -->
+</div>
+
+<div class="gallery">
+	<a target="_blank" href="img_mountains.jpg">
+		<img src="mountain.jpg" alt="Mountains" width="600" height="400">	<!-- 파일명 mountain.jpg , alt= 대체 텍스트 ,너비 600,높이 400 -->
+	</a>
+	<div class="desc">Add a description of the image here</div>				<!--  박스안쪽 여백 공간 Add a description of the image here -->
+</div>
+
+</body>
+</html>

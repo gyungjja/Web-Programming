@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<style>
+	table,td{text-align:center; border:1px solid black;}
+	td{font-size: 10px;}
+</style>
+<title>구구단</title>
+</head>
+<body>
+<caption>구구단</caption>
+<script>
+	document.write("<table border=1>");
+	for(var i=1;i<=9;i++){
+		document.write("<tr>");
+		for(var j=5;j<=5;j++){
+			if(i==0){
+				document.write("<td>");
+				document.write(j+"단");
+				document.write("</td>");
+			}
+			else{
+				document.write("<td>");
+				document.write(j+"*"+i+"="+(j*i));
+				document.write("</td>");
+			}
+		}
+		document.write("</tr>");
+	}
+	document.write("</table>");
+</script>
+</body>
+</html>

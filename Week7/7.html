@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC " -//W3C//DTD HTML 4.0 Treansitional//EN">
+<html>
+<head>
+	<p>회원가입을 위해 아래 기본정보를 입력하셔야 합니다.         *표시는 필수 입력 사항입니다.</p>
+<meta charset="EUC-KR">
+<title> 회원가입 </title>
+</head>
+<body>
+	<FORM action = "8.jsp" method = post >
+		<fieldset>
+			성명:<INPUT TYPE=TEXT name=id size=10 maxlength=7>
+			<font size=-2> </font><br>
+			한림ID:<INPUT TYPE=TEXT name=id size=10 maxlength=6>
+			<font size=-2> (@hallym.ac.kr) </font><br>
+		</fieldset>
+		<fieldset>
+			비밀번호:<INPUT TYPE=PASSWORD name=pwd size=10 maxlength=7>
+			<font size=-2> (6자리 이상 대/소 문자 구분) </font><br>
+			*비밀번호확인:<INPUT TYPE=PASSWORD name=pwd size=10 maxlength=6>
+			<font size=-2> </font><br>
+		</fieldset>
+		<fieldset>
+			본인확인질문:
+			<select name= "question">
+				<option value="1"  selected>가장 기억에 남는 인물</option>
+				<option value="2" >보물 1호</option>
+				<option value="3" >존경하는 인물</option>
+			</select> <br>
+			E-mail 수신:<INPUT TYPE = radio name=check value=yes >수신
+						<INPUT TYPE = radio name=check value=no >수신거부
+		</fieldset>
+		<INPUT TYPE=SUBMIT VALUE=가입><INPUT TYPE=RESET VALUE=취소>
+	
+	</FORM>
+
+</body>
+</html>

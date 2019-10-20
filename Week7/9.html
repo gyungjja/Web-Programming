@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC " -//W3C//DTD HTML 4.0 Treansitional//EN">
+<html>
+<head>
+<meta charset="EUC-KR">
+<title> 설문조사 </title>
+</head>
+<body>
+	<FORM action = "9.jsp" method = post >
+		<fieldset>
+			이름:<INPUT TYPE=TEXT name=id size=10 maxlength=7>
+			<font size=-2> </font><br>
+		</fieldset>
+		<fieldset>
+			직업: <INPUT TYPE = radio name = job value=무직> 무직
+				<INPUT TYPE = radio name = job value=회사원> 회사원
+				<INPUT TYPE = radio name = job value=전문직> 전문직
+				<INPUT TYPE = radio name = job value=학생> 학생
+		</fieldset>
+		<fieldset>
+			관심분야:<INPUT TYPE = checkbox name = field value=정치> 정치
+					<INPUT TYPE = checkbox name = field value=사회> 사회
+					<INPUT TYPE = checkbox name = field value=정보통신> 정보통신
+		</fieldset>
+		<INPUT TYPE=SUBMIT VALUE=확인><INPUT TYPE=RESET VALUE=취소>
+		
+	</FORM>
+
+</body>
+</html>
